@@ -1,0 +1,72 @@
+Arguments: 
+  F:\Program Files\Node.js\node.exe C:\Users\win_10\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add jest@20.0.4
+
+PATH: 
+  C:\Users\win_10\bin;F:\Program Files\Git\mingw64\bin;F:\Program Files\Git\usr\local\bin;F:\Program Files\Git\usr\bin;F:\Program Files\Git\usr\bin;F:\Program Files\Git\mingw64\bin;F:\Program Files\Git\usr\bin;C:\Users\win_10\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Smart Projects\IsoBuster;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\System32\OpenSSH;F:\Program Files\Git\cmd;F:\Program Files\Node.js;C:\Program Files (x86)\Java\jdk1.8.0_152\bin;C:\Users\win_10\AppData\Local\Microsoft\WindowsApps;F:\SQL\sqlite-tools-win32-x86-3230100;F:\Program Files\Sublime Text 3;F:\Program Files\Notepad++;C:\Users\win_10\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;F:\Program Files\heroku\bin;F:\Program Files\PostgresSQL\11\bin;F:\Program Files\Git\usr\bin\vendor_perl;F:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, scandir 'C:\Users\win_10\Desktop\reactProjects\expensify\node_modules\@types'
+
+npm manifest: 
+  {
+    "name": "expensify",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "serve": "live-server public/",
+      "build": "webpack",
+      "dev-server": "webpack-dev-server",
+      "test": "jest --watch"
+    },
+    "author": "sina moraddar",
+    "license": "ISC",
+    "dependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.25.0",
+      "babel-loader": "^7.1.1",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-plugin-transform-object-rest-spread": "^6.26.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "css-loader": "^0.28.4",
+      "live-server": "^1.2.1",
+      "moment": "^2.24.0",
+      "node-sass": "^4.11.0",
+      "normalize.css": "^8.0.1",
+      "react": "^16.8.6",
+      "react-dates": "^20.1.0",
+      "react-dom": "^16.8.6",
+      "react-modal": "^2.2.2",
+      "react-redux": "^7.0.2",
+      "react-router-dom": "^4.3.1",
+      "redux": "^4.0.1",
+      "sass-loader": "^7.1.0",
+      "style-loader": "^0.18.2",
+      "uuid": "^3.3.2",
+      "validator": "^10.11.0",
+      "webpack": "^3.1.0",
+      "webpack-dev-server": "^2.5.1"
+    },
+    "devDependencies": {
+      "@babel/plugin-proposal-class-properties": "^7.4.0",
+      "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+      "@babel/preset-react": "^7.0.0",
+      "jest": "^20.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
